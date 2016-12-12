@@ -64,7 +64,7 @@ if (isset($_POST['type']) && isset($_POST['user'])){
 	        $sql = "INSERT INTO friends(user1, user2, datemade) VALUES('$log_username','$user',now())";
 		    $query = mysqli_query($db_conx, $sql);
 			mysqli_close($db_conx);
-	        echo "friend_request_sent";
+	        echo "Friend Request Sent!";
 	        exit();
 		}
 	} else if($_POST['type'] == "unfriend"){
@@ -78,13 +78,13 @@ if (isset($_POST['type']) && isset($_POST['user'])){
 	        $sql = "DELETE FROM friends WHERE user1='$log_username' AND user2='$user' AND accepted='1' LIMIT 1";
 			$query = mysqli_query($db_conx, $sql);
 			mysqli_close($db_conx);
-	        echo "unfriend_ok";
+	        echo "Unfriend Confirmed!";
 	        exit();
 	    } else if ($row_count2[0] > 0) {
 			$sql = "DELETE FROM friends WHERE user1='$user' AND user2='$log_username' AND accepted='1' LIMIT 1";
 			$query = mysqli_query($db_conx, $sql);
 			mysqli_close($db_conx);
-	        echo "unfriend_ok";
+	        echo "Unfriend Confirmed!";
 	        exit();
 	    } else {
 			mysqli_close($db_conx);
@@ -120,13 +120,13 @@ if (isset($_POST['action']) && isset($_POST['reqid']) && isset($_POST['user1']))
 			$sql = "UPDATE friends SET accepted='1' WHERE id='$reqid' AND user1='$user' AND user2='$log_username' LIMIT 1";
 			$query = mysqli_query($db_conx, $sql);
 			mysqli_close($db_conx);
-	        echo "accept_ok";
+	        echo "Friend Request Accepted!";
 	        exit();
 		}
 	} else if($_POST['action'] == "reject"){
 		mysqli_query($db_conx, "DELETE FROM friends WHERE id='$reqid' AND user1='$user' AND user2='$log_username' AND accepted='0' LIMIT 1");
 		mysqli_close($db_conx);
-		echo "reject_ok";
+		echo "Friend Request Rejected!";
 		exit();
 	}
 }
