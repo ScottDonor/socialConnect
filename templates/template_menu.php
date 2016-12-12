@@ -4,3 +4,4 @@
 		  
           <a href="notifications.php"><?php echo $notificationsthere?></a>
           <a href="#">Menu_Item_2</a>
+          <a href="#">Menu_Item_3</a>
