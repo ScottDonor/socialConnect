@@ -56,16 +56,17 @@ echo'<div id="pageMiddle">';
 	
 	while($row=mysqli_fetch_array($result, MYSQLI_ASSOC))
 	{
-	$username=$row['username'];
-	$image=$row['avatar'];
-	if($image!="")
-	  {
+	$username = $row['username'];
+	$image = $row['avatar'];
+	$gender = $row['gender'];
+	if($image!="") {
 	 	 echo '<a href="user.php?u='.$username.'"><img src="user/'.$username.'/'.$image.'" height="250" width="230"></a>';
-	
-      }
-    else
-		{
-		echo '<a href="user.php?u='.$username.'"><img src="images/avatardefault.jpg" height="250" width="250"></a>';
+      } else {
+		// assign gender specific avatars 
+		  if ($gender == 'f') { echo '<a href="user.php?u='.$username.'"><img src="images/female_avatar.png" height="250" width="250"></a>'; }
+		  else { echo '<a href="user.php?u='.$username.'"><img src="images/male_avatar.png" height="250" width="250"></a>'; }
+		  
+		//echo '<a href="user.php?u='.$username.'"><img src="images/avatardefault.jpg" height="250" width="250"></a>';
 		}
 	$counter++;
 	if($counter==4)
