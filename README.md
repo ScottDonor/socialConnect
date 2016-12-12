@@ -12,8 +12,8 @@ To setup the script:
 
 Create a MySql database.  
 Edit php_includes/db_conx.php to reflect your database credentials.  
-Run /one time use scripts/tablecreator.php.  
-Delete /one time use scripts/tablecreator.php if all tables were created successfully.
+Open /one time use scripts/tablecreator.php in your browser.  
+Delete /one time use scripts/tablecreator.php if all tables were created successfully.  
 Load webpage and create your first user.
 
 Done so far:
