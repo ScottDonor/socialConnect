@@ -3,10 +3,11 @@ It is a full fledged social networking site equipped with chat system, avatar lo
 
 Notes from ScottDonor:
 
-This script does not currently support password salting etc, use at your own risk. It seems like rahulmehra was implenting it but has not fully done so yet so that is on my to do list once I get more confortable with the script and it's coding. The main reason for my fork was to fix the status issues. This script has a lot of potential tho.
+This script does not currently support password salting etc, use at your own risk. It seems like rahulmehra was implenting it but has not fully done so yet so that is on my to do list once I get more confortable with the script and it's coding. The main reason for my fork was to fix the status issues. This script has a lot of potential tho. My goal it to just clean it up a little as I am no whiz when it comes to coding.
 
 Done so far:
 
+Edited friend_request_ok and friend_request_rejected messages to be more user friendly.  
 Edited status post success message to Post Successful!.  
 Edited menu links to show Home, Notifications with notification count, and Profile.  
 Added header and footer template to message.php.  
