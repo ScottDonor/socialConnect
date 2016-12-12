@@ -30,7 +30,6 @@ echo '
     <div id="pageTopRest">
       <div id="menu1">
         <div>
-          <a href="#">Link</a>
         </div>
       </div>
       <div id="menu2">
