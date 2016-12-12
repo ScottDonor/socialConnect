@@ -27,6 +27,7 @@ Added DEFAULT value to osid field in the status table.
 
 Scotts TO DO list:
 
+Add "mark as read" on notifications page for status posts.  
 Reload user profile after a successful status post.  
 See if I can get salting to work.  
 Add mysql error handling to all querys.  
