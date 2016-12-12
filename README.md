@@ -7,6 +7,7 @@ This script does not currently support password salting etc, use at your own ris
 
 Done so far:
 
+Added header and footer template to message.php.  
 Put template bottom back onto login.php.  
 Removed pentester.php.  
 Moved the Terms of Service to the /templates/ folder for easier editing.  
