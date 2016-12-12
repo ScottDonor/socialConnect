@@ -1,1 +1,0 @@
-<div id="pageBottom">&copy;<?php echo date('Y');?> Social Connect Made By RAHUL MEHRA</div>
