@@ -122,7 +122,7 @@ echo'<link rel="stylesheet" href="style/style.css">
       </div>
       <div id="menu2">
         <div>';
-include_once("template_menu.php"); 
+include_once("templates/template_menu.php"); 
 echo '</div>
       </div>
     </div>
