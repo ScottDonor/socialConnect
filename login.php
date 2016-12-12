@@ -136,6 +136,6 @@ include_once("templates/template_pageTop2.php");
   </form>
   <!-- LOGIN FORM -->
 </div>
-<?php //include_once("templates/template_pageBottom.php"); ?>
+<?php include_once("templates/template_pageBottom.php"); ?>
 </body>
 </html>
