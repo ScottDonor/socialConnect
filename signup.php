@@ -275,12 +275,7 @@ include_once("templates/template_pageTop2.php");
         View the Terms Of Use
       </a>
     </div>
-    <div id="terms" style="display:none;">
-      <h3>Web Intersect Terms Of Use</h3>
-      <p>1. Play nice here.</p>
-      <p>2. Take a bath before you visit.</p>
-      <p>3. Brush your teeth before bed.</p>
-    </div>
+<?php include_once("templates/template_terms.php"); ?>
     <br /><br />
     <button id="signupbtn" onclick="signup()">Create Account</button>
     <span id="status"></span>
