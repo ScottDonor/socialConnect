@@ -63,7 +63,7 @@ if (isset($_POST['action']) && $_POST['action'] == "status_post"){
 		mysqli_query($db_conx, "INSERT INTO notifications(username, initiator, app, note, date_time) VALUES('$friend','$log_username','$app','$note',now())");			
 	}
 	mysqli_close($db_conx);
-	echo "post_ok|$id";
+	echo "Post Successful!";
 	exit();
 }
 ?><?php 
