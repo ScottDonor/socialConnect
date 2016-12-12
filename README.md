@@ -18,7 +18,7 @@ Load webpage and create your first user.
 
 Done so far:
 
-
+Added registered member count to page footer (/templates/template_pageBottom.php).  
 Moved the country list for the signup form into /templates/.  
 Assigned gender specific default avatars to index.php and user profiles.  
 Edited friend_request_ok and friend_request_rejected messages to be more user friendly.  
