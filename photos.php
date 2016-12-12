@@ -140,7 +140,7 @@ function deletePhoto(id){
 <?php
 if($user_ok==true)
 {
-include_once("template_pageTop.php"); 
+include_once("templates/template_pageTop.php"); 
 }
 
 else
@@ -180,6 +180,6 @@ echo'
   <div id="picbox"></div>
   <p style="clear:left;">These photos belong to <a href="user.php?u=<?php echo $u; ?>"><?php echo $u; ?></a></p>
 </div>
-<?php include_once("template_pageBottom.php"); ?>
+<?php include_once("templates/template_pageBottom.php"); ?>
 </body>
 </html>

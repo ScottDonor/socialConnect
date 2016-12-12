@@ -14,7 +14,7 @@
 
 if($user_ok==true)
 {
- include_once("template_pageTop.php"); 
+ include_once("templates/template_pageTop.php"); 
 }
 else
 {
@@ -83,6 +83,6 @@ echo'<div id="pageMiddle">';
   
   
 </div>
-<?php include_once("template_pageBottom.php"); ?>
+<?php include_once("templates/template_pageBottom.php"); ?>
 </body>
 </html>

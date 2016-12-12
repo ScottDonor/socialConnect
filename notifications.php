@@ -101,7 +101,7 @@ function friendReqHandler(action,reqid,user1,elem){
 <?php
 if($user_ok==true)
 {
-//include_once("template_pageTop.php"); 
+//include_once("templates/template_pageTop.php"); 
 
 
 echo'<link rel="stylesheet" href="style/style.css">
@@ -141,7 +141,7 @@ echo'<link rel="stylesheet" href="style/style.css">
 
 else
 {
-include_once("template_pageTop2.php");
+include_once("templates/template_pageTop2.php");
 }
 ?>
 
@@ -155,6 +155,6 @@ include_once("template_pageTop2.php");
   <div style="clear:left;"></div>
   <!-- END Page Content -->
 </div>
-<?php include_once("template_pageBottom.php"); ?>
+<?php include_once("templates/template_pageBottom.php"); ?>
 </body>
 </html>

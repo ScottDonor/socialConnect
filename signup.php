@@ -237,7 +237,7 @@ window.onload = addEvents; */
 </head>
 <body>
 <?php
-include_once("template_pageTop2.php");
+include_once("templates/template_pageTop2.php");
 
 
 ?>
@@ -287,6 +287,6 @@ include_once("template_pageTop2.php");
   </form>
   
 </div>
-<?php include_once("template_pageBottom.php"); ?>
+<?php include_once("templates/template_pageBottom.php"); ?>
 </body>
 </html>

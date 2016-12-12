@@ -110,12 +110,12 @@ function login(){
 <?php
 if($user_ok==true)
 {
-include_once("template_pageTop.php"); 
+include_once("templates/template_pageTop.php"); 
 }
 
 else
 {
-include_once("template_pageTop2.php");
+include_once("templates/template_pageTop2.php");
 }
 
 ?>
@@ -136,6 +136,6 @@ include_once("template_pageTop2.php");
   </form>
   <!-- LOGIN FORM -->
 </div>
-<?php //include_once("template_pageBottom.php"); ?>
+<?php //include_once("templates/template_pageBottom.php"); ?>
 </body>
 </html>

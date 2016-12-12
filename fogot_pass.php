@@ -123,7 +123,7 @@ function forgotpass(){
 </script>
 </head>
 <body>
-<?php //include_once("template_pageTop.php"); ?>
+<?php //include_once("templates/template_pageTop.php"); ?>
 <div id="pageMiddle">
   <h3>Generate a temorary log in password</h3>
   <form id="forgotpassform" onsubmit="return false;">
@@ -134,6 +134,6 @@ function forgotpass(){
     <p id="status"></p>
   </form>
 </div>
-<?php //include_once("template_pageBottom.php"); ?>
+<?php //include_once("templates/template_pageBottom.php"); ?>
 </body>
 </html>
