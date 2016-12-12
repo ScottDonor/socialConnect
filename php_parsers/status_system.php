@@ -105,7 +105,7 @@ if (isset($_POST['action']) && $_POST['action'] == "status_reply"){
 		             VALUES('$participant','$log_username','$app','$note',now())");
 	}
 	mysqli_close($db_conx);
-	echo "reply_ok|$id";
+	echo "Your reply has been posted.";
 	exit();
 }
 ?><?php 
@@ -125,7 +125,7 @@ if (isset($_POST['action']) && $_POST['action'] == "delete_status"){
     if ($author == $log_username || $account_name == $log_username) {
 		mysqli_query($db_conx, "DELETE FROM status WHERE osid='$statusid'");
 		mysqli_close($db_conx);
-	    echo "delete_ok";
+	    echo "Status deleted.";
 		exit();
 	}
 }
@@ -146,7 +146,7 @@ if (isset($_POST['action']) && $_POST['action'] == "delete_reply"){
     if ($author == $log_username || $account_name == $log_username) {
 		mysqli_query($db_conx, "DELETE FROM status WHERE id='$replyid'");
 		mysqli_close($db_conx);
-	    echo "delete_ok";
+	    echo "Reply deleted.";
 		exit();
 	}
 }
