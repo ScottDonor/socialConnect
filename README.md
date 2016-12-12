@@ -5,6 +5,14 @@ Notes from ScottDonor:
 
 This script does not currently support password salting etc, use at your own risk. It seems like rahulmehra was implenting it but has not fully done so yet so that is on my to do list once I get more confortable with the script and it's coding. The main reason for my fork was to fix the status issues. This script has a lot of potential tho. My goal it to just clean it up a little as I am no whiz when it comes to coding.
 
+To setup the script:
+
+Create a MySql database.  
+Edit php_includes/db_conx.php to reflect your database credentials.  
+Run /one time use scripts/tablecreator.php.  
+Delete /one time use scripts/tablecreator.php if all tables were created successfully.
+Load webpage and create your first user.
+
 Done so far:
 
 Edited friend_request_ok and friend_request_rejected messages to be more user friendly.  
@@ -27,6 +35,7 @@ Added DEFAULT value to osid field in the status table.
 
 Scotts TO DO list:
 
+Add some type of Admin Panel.  
 Add "mark as read" on notifications page for status posts.  
 Reload user profile after a successful status post.  
 See if I can get salting to work.  
