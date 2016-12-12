@@ -7,6 +7,7 @@ This script does not currently support password salting etc, use at your own ris
 
 Done so far:
 
+Moved the Terms of Service to the /templates/ folder for easier editing.  
 Edited signup_success message in signup.php.  
 Edited tablecreator.php file to add a DEFAULT value in the status table, osid field. Status commenting should now work.  
 Removed user level from user profile.  
