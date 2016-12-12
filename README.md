@@ -16,7 +16,7 @@ Load webpage and create your first user.
 Done so far:
 
 Edited friend_request_ok and friend_request_rejected messages to be more user friendly.  
-Edited status post success message to Post Successful!.  
+Edited status post, delete and reply messages.  
 Edited menu links to show Home, Notifications with notification count, and Profile.  
 Added header and footer template to message.php.  
 Put template bottom back onto login.php.  
