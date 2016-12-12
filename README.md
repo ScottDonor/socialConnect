@@ -1,9 +1,12 @@
 # socialConnect
-It is a full fledged social networking site equipped with chat system, avatar loading, photo loading and much more implemented in PHP and database used Mysql. Created by rahulmehra.
+It is a full fledged social networking site equipped with chat system, avatar loading, photo loading and much more implemented in PHP and database used Mysql. Created by rahulmehra. His master can be found here: https://github.com/rahulmehra1994/socialConnect
 
 Notes from ScottDonor:
 
-This script does not currently support password salting etc, use at your own risk. It seems like rahulmehra was implenting it but has not fully done so yet so that is on my to do list once I get more confortable with the script and it's coding. The main reason for my fork was to fix the status issues. This script has a lot of potential tho. My goal it to just clean it up a little as I am no whiz when it comes to coding.
+This script does not currently support password salting etc, use at your own risk.  
+It seems like rahulmehra was implenting it but has not fully done so yet so that is on my to do list once I get more confortable with the script and it's coding.  
+The main reason for my fork was to fix the status issues and a general tidyup.  
+My goal it to just clean it up a little and make it more user friendly for this who wish to use it.
 
 To setup the script:
 
