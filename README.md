@@ -36,6 +36,7 @@ Added DEFAULT value to osid field in the status table.
 
 Scotts TO DO list:
 
+Gender specific avatars on user profile.  
 Add some type of Admin Panel.  
 Add "mark as read" on notifications page for status posts.  
 Reload user profile after a successful status post.  
