@@ -7,21 +7,15 @@ This script does not currently support password salting etc, use at your own ris
 
 Done so far:
 
-Edited tablecreator.php file to add a DEFAULT value in the status table, osid field. Status commenting should now work.
-
-Removed user level from user profile.
-
-Moved top menu to it's own file in /templates/.
-
-Removed login2.php file.
-
-Removed a php echo to verify user is logged in and verified on their profile.
-
-Removed top right LINK when user is not logged in.
-
-Moved templates.php files to /templates/ folder.
-
-Added DEFAULT value to osid field in the status table.
+Edited signup_success message in signup.php.  
+Edited tablecreator.php file to add a DEFAULT value in the status table, osid field. Status commenting should now work.  
+Removed user level from user profile.  
+Moved top menu to it's own file in /templates/.  
+Removed login2.php file.  
+Removed a php echo to verify user is logged in and verified on their profile.  
+Removed top right LINK when user is not logged in.  
+Moved templates.php files to /templates/ folder.  
+Added DEFAULT value to osid field in the status table.  
 
 
 Scotts TO DO list:
