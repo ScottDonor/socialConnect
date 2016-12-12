@@ -104,7 +104,7 @@ if(isset($_POST["u"])){
         $headers .= "Content-type: text/html; charset=iso-8859-1\n";
 		mail($to, $subject, $message, $headers);
 		*/
-		echo "signup_success";
+		echo "Your account has been registered, please login <a href='login.php'>here</a>.";
 		exit();
 		
 	}
