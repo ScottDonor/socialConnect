@@ -266,9 +266,8 @@ include_once("templates/template_pageTop2.php");
     <div>Country:</div>
     <select id="country" onfocus="emptyElement('status')">
 	<option value=""></option>
-      <option value="India">India</option>
-      <option value="America">America</option>
-      <?php // include_once("template_country_list.php"); ?>
+
+      <?php  include_once("templates/template_countries.php"); ?>
     </select>
     <div>
       <a href="#" onclick="return false" onmousedown="openTerms()">
