@@ -54,7 +54,12 @@ if($gender == "f"){
 }
 $profile_pic = '<img src="user/'.$u.'/'.$avatar.'" alt="'.$u.'">';
 if($avatar == NULL){
-	$profile_pic = '<img src="images/avatardefault.jpg" alt="'.$u.'">';
+	if($gender == "f"){
+	$sex = "Female";
+	$profile_pic = '<img src="images/female_avatar.png" alt="'.$u.'">';
+} else {
+	$profile_pic = '<img src="images/male_avatar.png" alt="'.$u.'">';
+}
 }
 ?>
 
@@ -125,15 +130,21 @@ if($friend_count < 1){
 			$orLogic .= "username='$user' OR ";
 	}
 	$orLogic = chop($orLogic, "OR ");
-	$sql = "SELECT username, avatar FROM users WHERE $orLogic";
+	$sql = "SELECT username, avatar, gender FROM users WHERE $orLogic";
 	$query = mysqli_query($db_conx, $sql);
 	while($row = mysqli_fetch_array($query, MYSQLI_ASSOC)) {
 		$friend_username = $row["username"];
 		$friend_avatar = $row["avatar"];
+		$friend_gender = $row["gender"];
 		if($friend_avatar != ""){
 			$friend_pic = 'user/'.$friend_username.'/'.$friend_avatar.'';
 		} else {
-			$friend_pic = 'images/avatardefault.jpg';
+			if($friend_gender == "f"){
+	          $friend_pic = 'images/female_avatar.png';
+            } else {
+	          $friend_pic = 'images/male_avatar.png';
+            }
+			//$friend_pic = 'images/avatardefault.jpg';
 		}
 		$friendsHTML .= '<a href="user.php?u='.$friend_username.'"><img class="friendpics" src="'.$friend_pic.'" alt="'.$friend_username.'" title="'.$friend_username.'"></a>';
 	}
