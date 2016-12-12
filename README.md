@@ -41,6 +41,7 @@ Added DEFAULT value to osid field in the status table.
 
 Scotts TO DO list:
 
+Convert all timestamps that get saved to database to unix. Give site owner a universal way to display them.  
 Adapt site languages. (In progress)  
 Add some type of Admin Panel.  
 Add "mark as read" on notifications page for status posts.  
