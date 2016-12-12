@@ -24,7 +24,7 @@ Assigned gender specific default avatars to index.php and user profiles.
 Edited friend_request_ok and friend_request_rejected messages to be more user friendly.  
 Edited status post, delete and reply messages.  
 Edited menu links to show Home, Notifications with notification count, and Profile.  
-Added header and footer template to message.php.  
+Added header and footer template to message.php, filenotfound.php.  
 Put template bottom back onto login.php.  
 Removed pentester.php.  
 Moved the Terms of Service to the /templates/ folder for easier editing.  
