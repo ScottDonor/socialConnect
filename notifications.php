@@ -121,14 +121,9 @@ echo'<link rel="stylesheet" href="style/style.css">
         </div>
       </div>
       <div id="menu2">
-        <div>
-          <a href="login.php">
-            <img src="images/home.png" alt="home" title="Home"  height="30" width="30">
-          </a>
-		  
-          <a href="notifications.php"><img src="images/nonotifications.jpg"></a>
-          <a href="#">Menu_Item_2</a>
-</div>
+        <div>';
+include_once("template_menu.php"); 
+echo '</div>
       </div>
     </div>
   </div>
