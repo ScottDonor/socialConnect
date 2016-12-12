@@ -6,7 +6,7 @@ Notes from ScottDonor:
 This script does not currently support password salting etc, use at your own risk.  
 It seems like rahulmehra was implenting it but has not fully done so yet so that is on my to do list once I get more confortable with the script and it's coding.  
 The main reason for my fork was to fix the status issues and a general tidyup.  
-My goal it to just clean it up a little and make it more user friendly for this who wish to use it.
+My goal it to just clean it up a little and make it more user friendly for those who wish to use it.
 
 To setup the script:
 
