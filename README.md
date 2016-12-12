@@ -20,10 +20,7 @@ Added DEFAULT value to osid field in the status table.
 
 Scotts TO DO list:
 
-See if I can get salting to work.
-
-Add mysql error handling to all querys.
-
-Fix forgot password page and edit the link on login.php.
-
-Make the code more NEWBIE friendly. (Since I'm a NEWB!)
+See if I can get salting to work.  
+Add mysql error handling to all querys.  
+Fix forgot password page and edit the link on login.php.  
+Make the code more NEWBIE friendly. (Since I'm a NEWB!)  
