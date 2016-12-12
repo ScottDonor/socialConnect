@@ -7,6 +7,7 @@ This script does not currently support password salting etc, use at your own ris
 
 Done so far:
 
+Edited status post success message to Post Successful!.  
 Edited menu links to show Home, Notifications with notification count, and Profile.  
 Added header and footer template to message.php.  
 Put template bottom back onto login.php.  
@@ -25,6 +26,7 @@ Added DEFAULT value to osid field in the status table.
 
 Scotts TO DO list:
 
+Reload user profile after a successful status post.  
 See if I can get salting to work.  
 Add mysql error handling to all querys.  
 Fix forgot password page and edit the link on login.php.  
