@@ -1,36 +1,22 @@
-
-
+<!DOCTYPE html>
 <html>
- <head>
-   
- <style>
- #back{
- background-size: 1500px 1500px;
- }
- #d1{
-       position: absolute;
-  margin: auto;
-   position: absolute;
-  margin: auto;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 200px;
-  height: 200px;
-           
- }
- </style>
-  <title>FILE NOT FOUND</title>
- </head>
+<head>
+<meta charset="UTF-8">
+<title>File Not Found</title>
+<link rel="stylesheet" href="style/style.css">
 
- <body id="back" background="images/1.jpg" >
-<h1>Sorry what you are looking is not available in our website</h1>
+<?php include_once("templates/template_pageTop2.php"); ?>
+ <body>
+ <div id="pageMiddle">
+<br/>
+<br/>
+<h1>OOPS</h1>
  <div id="d1">
-
+<p> It seems the page you are looking for is not here! </p>
+<p><a href="index.php">Back to Home page</a></p>
 </div>
-
-
+</div>
+<?php include_once("templates/template_pageBottom.php"); ?>
 </body>
 </html>
 
