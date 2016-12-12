@@ -2,6 +2,8 @@
 include_once("php_includes/check_login_status.php");
 include_once("php_includes/config.php");
 include_once("languages/".$site_language.".php");
+
+
 // Collect notification count
 $notificationsthere="";
 $sql = "SELECT * FROM notifications WHERE username LIKE BINARY '$log_username' ORDER BY date_time DESC";
