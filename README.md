@@ -7,6 +7,7 @@ This script does not currently support password salting etc, use at your own ris
 
 Done so far:
 
+Edited menu links to show Home, Notifications with notification count, and Profile.  
 Added header and footer template to message.php.  
 Put template bottom back onto login.php.  
 Removed pentester.php.  
