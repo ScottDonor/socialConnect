@@ -1,4 +1,13 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Activation</title>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="style/style.css">
+</head>
+<body id="back" background="images/1.jpg">
 <?php
+include_once("templates/template_pageTop2.php");
 $message = "";
 $msg = preg_replace('#[^a-z 0-9.:_()]#i', '', $_GET['msg']);
 if($msg == "activation_failure"){
@@ -9,4 +18,12 @@ if($msg == "activation_failure"){
 	$message = $msg;
 }
 ?>
-<div><?php echo $message; ?></div>
+<div id="pageMiddle">
+<br/>
+<br/>
+<?php echo $message; ?>
+</div>
+
+<?php include_once("templates/template_pageBottom.php"); ?>
+</body>
+</html>
